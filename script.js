@@ -1,6 +1,6 @@
 import Javy
 
-let jsCode = /* your JavaScript code here */
+let jsCode = try! String(contentsOfFile: "main.ff059624.js", encoding: .utf8)
 
 do {
     let ast = try JavaScriptParser.parse(jsCode)
